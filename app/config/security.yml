@@ -13,7 +13,7 @@ security:
                         roles: 'ROLE_USER'
                     admin:
                         password: admin
-                        roles: 'ROLE_ADMIN'
+                        roles: 'ROLE_NGBM_ADMIN'
 
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
@@ -49,7 +49,7 @@ security:
             anonymous: ~
             # activate different ways to authenticate
 
-            # http_basic: ~
+            http_basic: ~
             # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
 
             # form_login: ~
@@ -58,3 +58,5 @@ security:
     access_control:
         - { path: ^/api/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/admin, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/bm, role: [ROLE_NGBM_ADMIN] }
+        - { path: ^/cb, role: [ROLE_NGBM_ADMIN] }

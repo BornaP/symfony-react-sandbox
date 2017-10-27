@@ -20,6 +20,16 @@ class AppKernel extends Kernel
             new Lexik\Bundle\JWTAuthenticationBundle\LexikJWTAuthenticationBundle(),
             new Limenius\ReactBundle\LimeniusReactBundle(),
             new Limenius\LiformBundle\LimeniusLiformBundle(),
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            new FOS\HttpCacheBundle\FOSHttpCacheBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
+            new Netgen\Bundle\CoreUIBundle\NetgenCoreUIBundle(),
+            new Netgen\Bundle\ContentBrowserBundle\NetgenContentBrowserBundle(),
+            new Netgen\Bundle\ContentBrowserUIBundle\NetgenContentBrowserUIBundle(),
+            new Netgen\Bundle\BlockManagerBundle\NetgenBlockManagerBundle(),
+            new Netgen\Bundle\BlockManagerUIBundle\NetgenBlockManagerUIBundle(),
+            new Netgen\Bundle\BlockManagerAdminBundle\NetgenBlockManagerAdminBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
@@ -30,6 +40,7 @@ class AppKernel extends Kernel
             $bundles[] = new Fidry\AliceDataFixtures\Bridge\Symfony\FidryAliceDataFixturesBundle();
             $bundles[] = new Hautelook\AliceBundle\HautelookAliceBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
+            $bundles[] = new Netgen\Bundle\BlockManagerDebugBundle\NetgenBlockManagerDebugBundle();
             $bundles[] = new WebServerBundle();
         }
 

@@ -32,7 +32,8 @@
         "limenius/react-bundle": "^0.14.0",
         "limenius/liform-bundle": "^0.10.1",
         "league/uri": "^5.0",
-        "lexik/jwt-authentication-bundle": "^2.4"
+        "lexik/jwt-authentication-bundle": "^2.4",
+        "netgen/block-manager": "^0.9.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
@@ -42,6 +43,9 @@
         "theofidry/alice-data-fixtures": "^1.0@beta",
         "doctrine/data-fixtures": "^1.2"
     },
+    "repositories": [
+        { "type": "composer", "url": "https://packagist.netgen.biz" }
+    ],
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",

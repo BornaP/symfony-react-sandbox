@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c8d7f7edabcec25370cc80c66a63315",
+    "hash": "fa61e3482de749dde1c5e6a78a321660",
+    "content-hash": "bc794acf4eb2218b4e3222376b55cac5",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -63,7 +64,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2017-03-06T11:59:08+00:00"
+            "time": "2017-03-06 11:59:08"
         },
         {
             "name": "doctrine/annotations",
@@ -131,7 +132,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2017-02-24T16:22:25+00:00"
+            "time": "2017-02-24 16:22:25"
         },
         {
             "name": "doctrine/cache",
@@ -201,7 +202,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-10-29T11:16:17+00:00"
+            "time": "2016-10-29 11:16:17"
         },
         {
             "name": "doctrine/collections",
@@ -268,7 +269,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2017-01-03T10:49:41+00:00"
+            "time": "2017-01-03 10:49:41"
         },
         {
             "name": "doctrine/common",
@@ -341,7 +342,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2017-01-13T14:02:13+00:00"
+            "time": "2017-01-13 14:02:13"
         },
         {
             "name": "doctrine/dbal",
@@ -412,7 +413,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-02-08T12:53:47+00:00"
+            "time": "2017-02-08 12:53:47"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -493,7 +494,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2017-05-18T08:15:18+00:00"
+            "time": "2017-05-18 08:15:18"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -581,7 +582,68 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-01-26T17:28:51+00:00"
+            "time": "2016-01-26 17:28:51"
+        },
+        {
+            "name": "doctrine/doctrine-migrations-bundle",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/DoctrineMigrationsBundle.git",
+                "reference": "6276139e0b913a4e5120fc36bb5b0eae8ac549bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineMigrationsBundle/zipball/6276139e0b913a4e5120fc36bb5b0eae8ac549bc",
+                "reference": "6276139e0b913a4e5120fc36bb5b0eae8ac549bc",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/migrations": "^1.1",
+                "php": ">=5.4.0",
+                "symfony/framework-bundle": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Bundle\\MigrationsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Doctrine Project",
+                    "homepage": "http://www.doctrine-project.org"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony DoctrineMigrationsBundle",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "dbal",
+                "migrations",
+                "schema"
+            ],
+            "time": "2016-12-05 18:36:37"
         },
         {
             "name": "doctrine/inflector",
@@ -648,7 +710,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06T14:35:42+00:00"
+            "time": "2015-11-06 14:35:42"
         },
         {
             "name": "doctrine/instantiator",
@@ -702,7 +764,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2015-06-14 21:17:01"
         },
         {
             "name": "doctrine/lexer",
@@ -756,7 +818,81 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09T13:34:57+00:00"
+            "time": "2014-09-09 13:34:57"
+        },
+        {
+            "name": "doctrine/migrations",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/migrations.git",
+                "reference": "c81147c0f2938a6566594455367e095150547f72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/c81147c0f2938a6566594455367e095150547f72",
+                "reference": "c81147c0f2938a6566594455367e095150547f72",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "~2.2",
+                "ocramius/proxy-manager": "^1.0|^2.0",
+                "php": "^5.5|^7.0",
+                "symfony/console": "~2.3|~3.0",
+                "symfony/yaml": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "dev-master",
+                "doctrine/orm": "2.*",
+                "jdorn/sql-formatter": "~1.1",
+                "johnkary/phpunit-speedtrap": "~1.0@dev",
+                "mikey179/vfsstream": "^1.6",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "~4.7",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "suggest": {
+                "jdorn/sql-formatter": "Allows to generate formatted SQL with the diff command."
+            },
+            "bin": [
+                "bin/doctrine-migrations"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "v1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\DBAL\\Migrations\\": "lib/Doctrine/DBAL/Migrations"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Michael Simonson",
+                    "email": "contact@mikesimonson.com"
+                }
+            ],
+            "description": "Database Schema migrations using Doctrine DBAL",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "migrations"
+            ],
+            "time": "2016-12-25 22:54:00"
         },
         {
             "name": "doctrine/orm",
@@ -832,7 +968,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2016-12-18T15:42:34+00:00"
+            "time": "2016-12-18 15:42:34"
         },
         {
             "name": "egulias/email-validator",
@@ -889,7 +1025,54 @@
                 "validation",
                 "validator"
             ],
-            "time": "2017-01-30T22:07:36+00:00"
+            "time": "2017-01-30 22:07:36"
+        },
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "v4.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "95e1bae3182efc0f3422896a3236e991049dac69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/95e1bae3182efc0f3422896a3236e991049dac69",
+                "reference": "95e1bae3182efc0f3422896a3236e991049dac69",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
+                "files": [
+                    "library/HTMLPurifier.composer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Edward Z. Yang",
+                    "email": "admin@htmlpurifier.org",
+                    "homepage": "http://ezyang.com"
+                }
+            ],
+            "description": "Standards compliant HTML filter written in PHP",
+            "homepage": "http://htmlpurifier.org/",
+            "keywords": [
+                "html"
+            ],
+            "time": "2017-06-03 02:28:16"
         },
         {
             "name": "fig/link-util",
@@ -943,7 +1126,252 @@
                 "psr-13",
                 "rest"
             ],
-            "time": "2016-10-17T18:31:11+00:00"
+            "time": "2016-10-17 18:31:11"
+        },
+        {
+            "name": "friendsofsymfony/http-cache",
+            "version": "1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
+                "reference": "e528b0fb046d3f329b10951201a5b0cab60e96e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/e528b0fb046d3f329b10951201a5b0cab60e96e1",
+                "reference": "e528b0fb046d3f329b10951201a5b0cab60e96e1",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/guzzle": "~3.8",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": "^2.3||^3.0",
+                "symfony/options-resolver": "^2.3||^3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1",
+                "monolog/monolog": "~1.0",
+                "symfony/http-kernel": "^2.3||^3.0",
+                "symfony/process": "^2.3||^3.0"
+            },
+            "suggest": {
+                "monolog/monolog": "For logging issues while invalidating"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FOS\\HttpCache\\": "src/",
+                    "FOS\\HttpCache\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                },
+                {
+                    "name": "Driebit",
+                    "email": "tech@driebit.nl",
+                    "homepage": "http://www.driebit.nl"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/friendsofsymfony/FOSHttpCache/contributors"
+                }
+            ],
+            "description": "Tools to manage cache invalidation",
+            "homepage": "https://github.com/friendsofsymfony/FOSHttpCache",
+            "keywords": [
+                "caching",
+                "http",
+                "invalidation",
+                "nginx",
+                "purge",
+                "varnish"
+            ],
+            "time": "2017-10-09 11:34:53"
+        },
+        {
+            "name": "friendsofsymfony/http-cache-bundle",
+            "version": "1.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSHttpCacheBundle.git",
+                "reference": "d5ccceeb0c6ce806b0b1f7fcc4f7a752fc85cf87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCacheBundle/zipball/d5ccceeb0c6ce806b0b1f7fcc4f7a752fc85cf87",
+                "reference": "d5ccceeb0c6ce806b0b1f7fcc4f7a752fc85cf87",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/http-cache": "~1.4",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "^2.3||^3.0"
+            },
+            "conflict": {
+                "twig/twig": "<1.12.0"
+            },
+            "require-dev": {
+                "matthiasnoback/symfony-dependency-injection-test": "^0.7.4",
+                "mockery/mockery": "0.9.*",
+                "monolog/monolog": "*",
+                "polishsymfonycommunity/symfony-mocker-container": "^1.0",
+                "sensio/framework-extra-bundle": "^2.3||^3.0",
+                "symfony/expression-language": "^2.4||^3.0",
+                "symfony/monolog-bundle": "^2.3||^3.0",
+                "symfony/phpunit-bridge": "^2.7||^3.0",
+                "symfony/symfony": "^2.3.4||^3.0"
+            },
+            "suggest": {
+                "sensio/framework-extra-bundle": "For Tagged Cache Invalidation",
+                "symfony/console": "To send invalidation requests from the command line",
+                "symfony/expression-language": "For Tagged Cache Invalidation"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FOS\\HttpCacheBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                },
+                {
+                    "name": "Driebit",
+                    "email": "tech@driebit.nl",
+                    "homepage": "http://www.driebit.nl"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/friendsofsymfony/FOSHttpCacheBundle/contributors"
+                }
+            ],
+            "description": "Set path based HTTP cache headers and send invalidation requests to your HTTP cache",
+            "homepage": "https://github.com/FriendsOfSymfony/FOSHttpCacheBundle",
+            "keywords": [
+                "caching",
+                "esi",
+                "http",
+                "invalidation",
+                "purge",
+                "varnish"
+            ],
+            "time": "2017-01-06 14:39:18"
+        },
+        {
+            "name": "guzzle/guzzle",
+            "version": "v3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
+            },
+            "require-dev": {
+                "doctrine/cache": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "1.0.*",
+                "symfony/class-loader": "*",
+                "zendframework/zend-cache": "<2.3",
+                "zendframework/zend-log": "<2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "abandoned": "guzzlehttp/guzzle",
+            "time": "2014-01-28 22:29:15"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -994,7 +1422,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-11-10T17:04:01+00:00"
+            "time": "2015-11-10 17:04:01"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -1044,7 +1472,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2014-01-12T16:20:24+00:00"
+            "time": "2014-01-12 16:20:24"
         },
         {
             "name": "jeremykendall/php-domain-parser",
@@ -1106,7 +1534,130 @@
                 "domain parsing",
                 "url parsing"
             ],
-            "time": "2015-03-30T12:49:45+00:00"
+            "time": "2015-03-30 12:49:45"
+        },
+        {
+            "name": "knplabs/knp-menu",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpMenu.git",
+                "reference": "964b5b3ca7fd23019147991f4f75f361d061eb20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/964b5b3ca7fd23019147991f4f75f361d061eb20",
+                "reference": "964b5b3ca7fd23019147991f4f75f361d061eb20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "pimple/pimple": "~1.0",
+                "silex/silex": "~1.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/routing": "~2.3|~3.0",
+                "twig/twig": "~1.16|~2.0"
+            },
+            "suggest": {
+                "pimple/pimple": "for the built-in implementations of the menu provider and renderer provider",
+                "silex/silex": "for the integration with your silex application",
+                "twig/twig": "for the TwigRenderer and the integration with your templates"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Menu\\": "src/Knp/Menu"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                },
+                {
+                    "name": "Knplabs",
+                    "homepage": "http://knplabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/KnpLabs/KnpMenu/contributors"
+                }
+            ],
+            "description": "An object oriented menu library",
+            "homepage": "http://knplabs.com",
+            "keywords": [
+                "menu",
+                "tree"
+            ],
+            "time": "2016-09-22 07:36:19"
+        },
+        {
+            "name": "knplabs/knp-menu-bundle",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
+                "reference": "0e4af7209dc03e39c51ec70b68ab2ba3177c25de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/0e4af7209dc03e39c51ec70b68ab2ba3177c25de",
+                "reference": "0e4af7209dc03e39c51ec70b68ab2ba3177c25de",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-menu": "~2.2",
+                "symfony/framework-bundle": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4|~3.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Bundle\\MenuBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                },
+                {
+                    "name": "Knplabs",
+                    "homepage": "http://knplabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/KnpLabs/KnpMenuBundle/contributors"
+                }
+            ],
+            "description": "This bundle provides an integration of the KnpMenu library",
+            "keywords": [
+                "menu"
+            ],
+            "time": "2016-09-22 12:24:40"
         },
         {
             "name": "league/uri",
@@ -1164,7 +1715,7 @@
                 "url",
                 "ws"
             ],
-            "time": "2017-02-06T08:50:02+00:00"
+            "time": "2017-02-06 08:50:02"
         },
         {
             "name": "league/uri-components",
@@ -1229,7 +1780,7 @@
                 "url",
                 "userinfo"
             ],
-            "time": "2017-04-27T08:42:28+00:00"
+            "time": "2017-04-27 08:42:28"
         },
         {
             "name": "league/uri-interfaces",
@@ -1281,7 +1832,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-01-04T08:02:42+00:00"
+            "time": "2017-01-04 08:02:42"
         },
         {
             "name": "league/uri-manipulations",
@@ -1352,7 +1903,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-02-06T07:57:03+00:00"
+            "time": "2017-02-06 07:57:03"
         },
         {
             "name": "league/uri-parser",
@@ -1411,7 +1962,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-04-19T07:41:41+00:00"
+            "time": "2017-04-19 07:41:41"
         },
         {
             "name": "league/uri-schemes",
@@ -1481,7 +2032,7 @@
                 "ws",
                 "wss"
             ],
-            "time": "2017-06-12T07:03:49+00:00"
+            "time": "2017-06-12 07:03:49"
         },
         {
             "name": "lexik/jwt-authentication-bundle",
@@ -1578,7 +2129,7 @@
                 "rest",
                 "symfony"
             ],
-            "time": "2017-05-08T10:16:54+00:00"
+            "time": "2017-05-08 10:16:54"
         },
         {
             "name": "limenius/liform",
@@ -1620,7 +2171,7 @@
                 }
             ],
             "description": "Library to transform Symfony Forms into Json Schema",
-            "time": "2017-06-09T15:59:10+00:00"
+            "time": "2017-06-09 15:59:10"
         },
         {
             "name": "limenius/liform-bundle",
@@ -1656,7 +2207,7 @@
                 }
             ],
             "description": "Bundle for Liform: Transform Symfony Forms into Json Schema",
-            "time": "2017-06-09T15:51:03+00:00"
+            "time": "2017-06-09 15:51:03"
         },
         {
             "name": "limenius/react-bundle",
@@ -1706,7 +2257,7 @@
                 "isomorphic",
                 "react"
             ],
-            "time": "2017-06-27T09:57:25+00:00"
+            "time": "2017-06-27 09:57:25"
         },
         {
             "name": "limenius/react-renderer",
@@ -1755,7 +2306,58 @@
                 "reactjs",
                 "twig"
             ],
-            "time": "2017-06-27T09:55:21+00:00"
+            "time": "2017-06-27 09:55:21"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/1f51cc520948f66cd2af8cbc45a5ee175e774220",
+                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2016-10-29 18:58:20"
         },
         {
             "name": "monolog/monolog",
@@ -1833,7 +2435,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19T01:22:40+00:00"
+            "time": "2017-06-19 01:22:40"
         },
         {
             "name": "nacmartin/phpexecjs",
@@ -1869,7 +2471,7 @@
                 }
             ],
             "description": "Run JavaScript code from PHP",
-            "time": "2016-09-28T08:36:23+00:00"
+            "time": "2016-09-28 08:36:23"
         },
         {
             "name": "namshi/jose",
@@ -1932,7 +2534,454 @@
                 "jwt",
                 "token"
             ],
-            "time": "2016-12-05T07:27:31+00:00"
+            "time": "2016-12-05 07:27:31"
+        },
+        {
+            "name": "netgen/block-manager",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:netgen/netgenblockmanager.git",
+                "reference": "26cfc7dc60cd19c5031031f36c028bd2f53e17bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.netgen.biz/dist/netgen/block-manager/netgen-block-manager-0.9.0-3a9ede.zip",
+                "reference": "26cfc7dc60cd19c5031031f36c028bd2f53e17bb",
+                "shasum": "05fc7485b96a4e135af3c46fa3e3e76b7f378a35"
+            },
+            "require": {
+                "doctrine/dbal": "^2.5",
+                "doctrine/doctrine-bundle": "^1.6",
+                "doctrine/doctrine-migrations-bundle": "^1.1",
+                "doctrine/migrations": "^1.4",
+                "ext-intl": "*",
+                "ext-mbstring": "*",
+                "ezyang/htmlpurifier": "^4.7",
+                "friendsofsymfony/http-cache-bundle": "^1.3.10|^2.0",
+                "knplabs/knp-menu-bundle": "^2.1.2",
+                "michelf/php-markdown": "^1.6",
+                "netgen/block-manager-ui": "~0.9.0",
+                "netgen/content-browser": "~0.9.0",
+                "php": "^5.6|^7.1",
+                "sensio/framework-extra-bundle": "^3.0",
+                "symfony/symfony": "^2.8|^3.3",
+                "twig/extensions": "^1.5.1",
+                "twig/twig": "^1.34.4|^2.4.3"
+            },
+            "require-dev": {
+                "franzl/studio": "*",
+                "matthiasnoback/symfony-config-test": "^2.0|^3.0",
+                "matthiasnoback/symfony-dependency-injection-test": "^1.0|^2.0",
+                "phpunit/phpunit": "^5.7|^6.3",
+                "symfony/phpunit-bridge": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netgen\\BlockManager\\": "lib/",
+                    "Netgen\\BlockManager\\Migrations\\": "migrations/",
+                    "Netgen\\Bundle\\BlockManagerBundle\\": "bundles/BlockManagerBundle/",
+                    "Netgen\\Bundle\\BlockManagerAdminBundle\\": "bundles/BlockManagerAdminBundle/",
+                    "Netgen\\Bundle\\BlockManagerDebugBundle\\": "bundles/BlockManagerDebugBundle/",
+                    "Netgen\\Bundle\\BlockManagerFixturesBundle\\": "bundles/BlockManagerFixturesBundle/",
+                    "Netgen\\BlockManager\\Tests\\": "tests/lib/",
+                    "Netgen\\Bundle\\BlockManagerBundle\\Tests\\": "tests/bundles/BlockManagerBundle/",
+                    "Netgen\\Bundle\\BlockManagerAdminBundle\\Tests\\": "tests/bundles/BlockManagerAdminBundle/"
+                },
+                "exclude-from-classmap": [
+                    "/tests/"
+                ]
+            },
+            "notification-url": "https://packagist.netgen.biz/downloads/",
+            "authors": [
+                {
+                    "name": "Netgen",
+                    "homepage": "http://www.netgenlabs.com"
+                }
+            ],
+            "description": "Netgen Block Manager",
+            "time": "2017-09-26 15:20:08"
+        },
+        {
+            "name": "netgen/block-manager-ui",
+            "version": "0.9.2",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:netgen/netgenblockmanagerui.git",
+                "reference": "46b555709476b9ede062fd52e9f976eecbe4d2e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.netgen.biz/dist/netgen/block-manager-ui/netgen-block-manager-ui-0.9.2-043bb9.zip",
+                "reference": "46b555709476b9ede062fd52e9f976eecbe4d2e4",
+                "shasum": "e6b20255ffae1c96848f1760979b4c22f69a2546"
+            },
+            "require": {
+                "netgen/content-browser-ui": "~0.9.0",
+                "netgen/core-ui": "~0.9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netgen\\Bundle\\BlockManagerUIBundle\\": "bundle/"
+                }
+            },
+            "notification-url": "https://packagist.netgen.biz/downloads/",
+            "authors": [
+                {
+                    "name": "Netgen",
+                    "homepage": "http://www.netgenlabs.com"
+                },
+                {
+                    "name": "Effectiva",
+                    "homepage": "http://www.effectiva.hr"
+                }
+            ],
+            "description": "Netgen Block Manager UI",
+            "time": "2017-10-24 14:54:25"
+        },
+        {
+            "name": "netgen/content-browser",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:netgen/netgencontentbrowser.git",
+                "reference": "b7f6acceded59da10a17e178d17e8b0cb375b508"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.netgen.biz/dist/netgen/content-browser/netgen-content-browser-0.9.0-c80e9d.zip",
+                "reference": "b7f6acceded59da10a17e178d17e8b0cb375b508",
+                "shasum": "e989c37e6cdd0147ea13d2d30f29545d6d6ff477"
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "netgen/content-browser-ui": "~0.9.0",
+                "php": "^5.6|^7.1",
+                "sensio/framework-extra-bundle": "^3.0",
+                "symfony/symfony": "^2.8|^3.3",
+                "twig/twig": "^1.34.4|^2.4.3",
+                "white-october/pagerfanta-bundle": "^1.0"
+            },
+            "require-dev": {
+                "ezsystems/ezpublish-kernel": "^6.0",
+                "franzl/studio": "*",
+                "matthiasnoback/symfony-dependency-injection-test": "^1.0|^2.0",
+                "netgen/tagsbundle": "^2.1|^3.0",
+                "phpunit/phpunit": "^5.7|^6.3",
+                "sylius/locale": "^1.0",
+                "sylius/locale-bundle": "^1.0",
+                "sylius/product": "^1.0",
+                "sylius/product-bundle": "^1.0",
+                "sylius/taxonomy": "^1.0",
+                "sylius/taxonomy-bundle": "^1.0",
+                "symfony/phpunit-bridge": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netgen\\ContentBrowser\\": "lib/",
+                    "Netgen\\Bundle\\ContentBrowserBundle\\": "bundle/",
+                    "Netgen\\ContentBrowser\\Tests\\": "tests/lib/",
+                    "Netgen\\Bundle\\ContentBrowserBundle\\Tests\\": "tests/bundle/"
+                },
+                "exclude-from-classmap": [
+                    "/tests/"
+                ]
+            },
+            "notification-url": "https://packagist.netgen.biz/downloads/",
+            "authors": [
+                {
+                    "name": "Netgen",
+                    "homepage": "http://www.netgenlabs.com"
+                }
+            ],
+            "description": "Netgen Content Browser",
+            "time": "2017-09-26 15:01:16"
+        },
+        {
+            "name": "netgen/content-browser-ui",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:netgen/netgencontentbrowserui.git",
+                "reference": "82360c880d1a487afd3d87e0d27fce4549e9b95f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.netgen.biz/dist/netgen/content-browser-ui/netgen-content-browser-ui-0.9.0-332bba.zip",
+                "reference": "82360c880d1a487afd3d87e0d27fce4549e9b95f",
+                "shasum": "3ba41b8ef42ba5345bf692b367088d8b89c1decc"
+            },
+            "require": {
+                "netgen/core-ui": "~0.9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netgen\\Bundle\\ContentBrowserUIBundle\\": "bundle/"
+                }
+            },
+            "notification-url": "https://packagist.netgen.biz/downloads/",
+            "authors": [
+                {
+                    "name": "Netgen",
+                    "homepage": "http://www.netgenlabs.com"
+                },
+                {
+                    "name": "Effectiva",
+                    "homepage": "http://www.effectiva.hr"
+                }
+            ],
+            "description": "Netgen Content Browser UI",
+            "time": "2017-09-27 09:26:46"
+        },
+        {
+            "name": "netgen/core-ui",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:netgen/netgencoreui.git",
+                "reference": "846270ec459bb83027bc28cd1b7bf63604b982ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.netgen.biz/dist/netgen/core-ui/netgen-core-ui-0.9.0-791302.zip",
+                "reference": "846270ec459bb83027bc28cd1b7bf63604b982ab",
+                "shasum": "f5a57f4b8e3938357967069e6761299cd4026077"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netgen\\Bundle\\CoreUIBundle\\": "bundle/"
+                }
+            },
+            "notification-url": "https://packagist.netgen.biz/downloads/",
+            "authors": [
+                {
+                    "name": "Netgen",
+                    "homepage": "http://www.netgenlabs.com"
+                },
+                {
+                    "name": "Effectiva",
+                    "homepage": "http://www.effectiva.hr"
+                }
+            ],
+            "description": "Netgen Core UI JS framework",
+            "time": "2017-09-27 09:24:24"
+        },
+        {
+            "name": "ocramius/package-versions",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ocramius/PackageVersions.git",
+                "reference": "72b226d2957e9e6a9ed09aeaa29cabd840d1a3b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/72b226d2957e9e6a9ed09aeaa29cabd840d1a3b7",
+                "reference": "72b226d2957e9e6a9ed09aeaa29cabd840d1a3b7",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": "~7.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3",
+                "ext-zip": "*",
+                "humbug/humbug": "dev-master",
+                "phpunit/phpunit": "^5.7.5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PackageVersions\\Installer",
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PackageVersions\\": "src/PackageVersions"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com"
+                }
+            ],
+            "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
+            "time": "2017-09-06 15:24:43"
+        },
+        {
+            "name": "ocramius/proxy-manager",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ocramius/ProxyManager.git",
+                "reference": "e18ac876b2e4819c76349de8f78ccc8ef1554cd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ocramius/ProxyManager/zipball/e18ac876b2e4819c76349de8f78ccc8ef1554cd7",
+                "reference": "e18ac876b2e4819c76349de8f78ccc8ef1554cd7",
+                "shasum": ""
+            },
+            "require": {
+                "ocramius/package-versions": "^1.1.1",
+                "php": "^7.1.0",
+                "zendframework/zend-code": "^3.1.0"
+            },
+            "require-dev": {
+                "couscous/couscous": "^1.5.2",
+                "ext-phar": "*",
+                "humbug/humbug": "dev-master@DEV",
+                "nikic/php-parser": "^3.0.4",
+                "phpbench/phpbench": "^0.12.2",
+                "phpstan/phpstan": "^0.6.4",
+                "phpunit/phpunit": "^5.6.4",
+                "phpunit/phpunit-mock-objects": "^3.4.1",
+                "squizlabs/php_codesniffer": "^2.7.0"
+            },
+            "suggest": {
+                "ocramius/generated-hydrator": "To have very fast object to array to object conversion for ghost objects",
+                "zendframework/zend-json": "To have the JsonRpc adapter (Remote Object feature)",
+                "zendframework/zend-soap": "To have the Soap adapter (Remote Object feature)",
+                "zendframework/zend-xmlrpc": "To have the XmlRpc adapter (Remote Object feature)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "ProxyManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.io/"
+                }
+            ],
+            "description": "A library providing utilities to generate, instantiate and generally operate with Object Proxies",
+            "homepage": "https://github.com/Ocramius/ProxyManager",
+            "keywords": [
+                "aop",
+                "lazy loading",
+                "proxy",
+                "proxy pattern",
+                "service proxies"
+            ],
+            "time": "2017-05-04 11:12:50"
+        },
+        {
+            "name": "pagerfanta/pagerfanta",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/whiteoctober/Pagerfanta.git",
+                "reference": "29aade64addfdfb12c05aabf160f09d1aea6b143"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/whiteoctober/Pagerfanta/zipball/29aade64addfdfb12c05aabf160f09d1aea6b143",
+                "reference": "29aade64addfdfb12c05aabf160f09d1aea6b143",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.3",
+                "doctrine/phpcr-odm": "1.*",
+                "jackalope/jackalope-doctrine-dbal": "1.*",
+                "jmikola/geojson": "~1.0",
+                "mandango/mandango": "~1.0@dev",
+                "mandango/mondator": "~1.0@dev",
+                "phpunit/phpunit": "~4 | ~5",
+                "propel/propel": "~2.0@dev",
+                "propel/propel1": "~1.6",
+                "ruflin/elastica": "~1.3",
+                "solarium/solarium": "~3.1"
+            },
+            "suggest": {
+                "doctrine/mongodb-odm": "To use the DoctrineODMMongoDBAdapter.",
+                "doctrine/orm": "To use the DoctrineORMAdapter.",
+                "doctrine/phpcr-odm": "To use the DoctrineODMPhpcrAdapter. >= 1.1.0",
+                "mandango/mandango": "To use the MandangoAdapter.",
+                "propel/propel": "To use the Propel2Adapter",
+                "propel/propel1": "To use the PropelAdapter",
+                "solarium/solarium": "To use the SolariumAdapter."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pagerfanta\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo Díez",
+                    "email": "pablodip@gmail.com"
+                }
+            ],
+            "description": "Pagination for PHP 5.3",
+            "keywords": [
+                "page",
+                "pagination",
+                "paginator",
+                "paging"
+            ],
+            "time": "2017-03-20 13:46:15"
         },
         {
             "name": "paragonie/random_compat",
@@ -1980,7 +3029,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13T16:27:32+00:00"
+            "time": "2017-03-13 16:27:32"
         },
         {
             "name": "psr/cache",
@@ -2026,7 +3075,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-08-06T20:24:11+00:00"
+            "time": "2016-08-06 20:24:11"
         },
         {
             "name": "psr/container",
@@ -2075,7 +3124,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14T16:28:37+00:00"
+            "time": "2017-02-14 16:28:37"
         },
         {
             "name": "psr/http-message",
@@ -2125,7 +3174,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "psr/link",
@@ -2174,7 +3223,7 @@
                 "psr-13",
                 "rest"
             ],
-            "time": "2016-10-28T16:06:13+00:00"
+            "time": "2016-10-28 16:06:13"
         },
         {
             "name": "psr/log",
@@ -2221,7 +3270,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "psr/simple-cache",
@@ -2269,7 +3318,7 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "time": "2017-01-02T13:31:39+00:00"
+            "time": "2017-01-02 13:31:39"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -2321,7 +3370,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2017-05-11T16:21:03+00:00"
+            "time": "2017-05-11 16:21:03"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -2391,7 +3440,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2017-05-11T17:01:57+00:00"
+            "time": "2017-05-11 17:01:57"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -2436,7 +3485,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-03-31T14:50:32+00:00"
+            "time": "2017-03-31 14:50:32"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2491,7 +3540,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-05-20T06:20:27+00:00"
+            "time": "2017-05-20 06:20:27"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -2551,7 +3600,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2017-03-26T11:55:59+00:00"
+            "time": "2017-03-26 11:55:59"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -2604,7 +3653,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -2662,7 +3711,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2721,7 +3770,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-09 14:24:12"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -2777,7 +3826,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -2836,7 +3885,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-09 14:24:12"
         },
         {
             "name": "symfony/polyfill-util",
@@ -2888,7 +3937,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -2947,7 +3996,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2017-06-09T00:03:44+00:00"
+            "time": "2017-06-09 00:03:44"
         },
         {
             "name": "symfony/symfony",
@@ -3100,7 +4149,63 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-06-06T04:00:14+00:00"
+            "time": "2017-06-06 04:00:14"
+        },
+        {
+            "name": "twig/extensions",
+            "version": "v1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig-extensions.git",
+                "reference": "d188c76168b853481cc75879ea045bf93d718e9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/d188c76168b853481cc75879ea045bf93d718e9c",
+                "reference": "d188c76168b853481cc75879ea045bf93d718e9c",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "~1.27|~2.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~3.3@dev",
+                "symfony/translation": "~2.3|~3.0"
+            },
+            "suggest": {
+                "symfony/translation": "Allow the time_diff output to be translated"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_Extensions_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\Extensions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Common additional features for Twig that do not directly belong in core",
+            "homepage": "http://twig.sensiolabs.org/doc/extensions/index.html",
+            "keywords": [
+                "i18n",
+                "text"
+            ],
+            "time": "2017-06-08 18:19:53"
         },
         {
             "name": "twig/twig",
@@ -3166,7 +4271,166 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-06-07T18:47:58+00:00"
+            "time": "2017-06-07 18:47:58"
+        },
+        {
+            "name": "white-october/pagerfanta-bundle",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/whiteoctober/WhiteOctoberPagerfantaBundle.git",
+                "reference": "ba78522935b141e7e3dee637dc0095fb44fde65b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/whiteoctober/WhiteOctoberPagerfantaBundle/zipball/ba78522935b141e7e3dee637dc0095fb44fde65b",
+                "reference": "ba78522935b141e7e3dee637dc0095fb44fde65b",
+                "shasum": ""
+            },
+            "require": {
+                "pagerfanta/pagerfanta": "1.0.*",
+                "symfony/framework-bundle": "~2.3|~3.0",
+                "symfony/property-access": "~2.3|~3.0",
+                "symfony/twig-bundle": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7",
+                "symfony/symfony": "~2.3|~3.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "WhiteOctober\\PagerfantaBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo Díez",
+                    "email": "pablodip@gmail.com"
+                }
+            ],
+            "description": "Bundle to use Pagerfanta with Symfony2",
+            "keywords": [
+                "page",
+                "paging"
+            ],
+            "time": "2017-02-10 16:54:59"
+        },
+        {
+            "name": "zendframework/zend-code",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-code.git",
+                "reference": "6b1059db5b368db769e4392c6cb6cc139e56640d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/6b1059db5b368db769e4392c6cb6cc139e56640d",
+                "reference": "6b1059db5b368db769e4392c6cb6cc139e56640d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "zendframework/zend-eventmanager": "^2.6 || ^3.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "~1.0",
+                "ext-phar": "*",
+                "phpunit/phpunit": "^6.2.3",
+                "zendframework/zend-coding-standard": "^1.0.0",
+                "zendframework/zend-stdlib": "^2.7 || ^3.0"
+            },
+            "suggest": {
+                "doctrine/annotations": "Doctrine\\Common\\Annotations >=1.0 for annotation features",
+                "zendframework/zend-stdlib": "Zend\\Stdlib component"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev",
+                    "dev-develop": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Code\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "provides facilities to generate arbitrary code using an object oriented interface",
+            "homepage": "https://github.com/zendframework/zend-code",
+            "keywords": [
+                "code",
+                "zf2"
+            ],
+            "time": "2017-10-20 15:21:32"
+        },
+        {
+            "name": "zendframework/zend-eventmanager",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-eventmanager.git",
+                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/9d72db10ceb6e42fb92350c0cb54460da61bd79c",
+                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "^0.1",
+                "container-interop/container-interop": "^1.1.0",
+                "phpunit/phpunit": "^6.0.7 || ^5.7.14",
+                "zendframework/zend-coding-standard": "~1.0.0",
+                "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
+            },
+            "suggest": {
+                "container-interop/container-interop": "^1.1.0, to use the lazy listeners feature",
+                "zendframework/zend-stdlib": "^2.7.3 || ^3.0, to use the FilterChain feature"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev",
+                    "dev-develop": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\EventManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Trigger and listen to events within a PHP application",
+            "homepage": "https://github.com/zendframework/zend-eventmanager",
+            "keywords": [
+                "event",
+                "eventmanager",
+                "events",
+                "zf2"
+            ],
+            "time": "2017-07-11 19:17:22"
         }
     ],
     "packages-dev": [
@@ -3227,7 +4491,7 @@
             "keywords": [
                 "database"
             ],
-            "time": "2016-09-20T10:07:57+00:00"
+            "time": "2016-09-20 10:07:57"
         },
         {
             "name": "fzaninotto/faker",
@@ -3275,7 +4539,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29T12:21:54+00:00"
+            "time": "2016-04-29 12:21:54"
         },
         {
             "name": "hautelook/alice-bundle",
@@ -3344,7 +4608,7 @@
                 "orm",
                 "symfony"
             ],
-            "time": "2016-12-17T15:16:24+00:00"
+            "time": "2016-12-17 15:16:24"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3386,7 +4650,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2017-04-12T18:52:22+00:00"
+            "time": "2017-04-12 18:52:22"
         },
         {
             "name": "nelmio/alice",
@@ -3459,7 +4723,7 @@
                 "faker",
                 "test"
             ],
-            "time": "2017-05-21T14:44:42+00:00"
+            "time": "2017-05-21 14:44:42"
         },
         {
             "name": "sensio/generator-bundle",
@@ -3513,7 +4777,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2017-03-15T01:02:10+00:00"
+            "time": "2017-03-15 01:02:10"
         },
         {
             "name": "symfony/phpunit-bridge",
@@ -3575,7 +4839,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01T14:45:22+00:00"
+            "time": "2017-06-01 14:45:22"
         },
         {
             "name": "theofidry/alice-data-fixtures",
@@ -3639,7 +4903,7 @@
                 "orm",
                 "tests"
             ],
-            "time": "2016-12-16T23:35:38+00:00"
+            "time": "2016-12-16 23:35:38"
         }
     ],
     "aliases": [],
